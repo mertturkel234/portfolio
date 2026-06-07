@@ -249,9 +249,8 @@ a {
 }
 
 .hero-scroll {
-    position: absolute;
-    bottom: 3rem;
-    left: 2rem;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -613,12 +612,6 @@ a {
     .hero-lower {
         flex-direction: column;
         gap: 2rem;
-    }
-    .hero-scroll {
-        position: relative;
-        bottom: auto;
-        left: auto;
-        margin-top: 4rem;
     }
 }
 
